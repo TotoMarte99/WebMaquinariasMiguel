@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "category": "industrial",
+    "name": "Recta Doble Arraste Industrial Jaki H31 ",
+    "badge": "Más vendido",
+    "desc": "Motor incorporadon de bajo consumo 70% de ahorro eléctrico, luz incorporada, tablero digital, posicionador de aguja, regulador de velocidad, lubricación automatica, ideal para todo tipo de trabajos",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 1,
+    "image": ""
+  },
+  {
+    "id": 2,
+    "category": "industrial",
+    "name": "Máquina De Coser Recta Indusrial Liviana Baubroth",
+    "badge": null,
+    "desc": "Motor incorporadon de bajo consumo 70% de ahorro eléctrico, luz incorporada, tablero digital, posicionador de aguja, regulador de velocidad, lubricación automatica, ideal para todo tipo de trabajos.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 1,
+    "image": ""
+  },
+  {
+    "id": 3,
+    "category": "industrial",
+    "name": "Collareta Industrial Jaki V1",
+    "badge": "Nuevo",
+    "desc": "Motor incorporadon de bajo consumo 70% de ahorro eléctrico, luz incorporada, tablero digital, posicionador de aguja, regulador de velocidad, lubricación automatica, ideal para todo tipo de trabajos.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 5,
+    "image": ""
+  },
+  {
+    "id": 4,
+    "category": "industrial",
+    "name": "Máquina De Coser Industrial Triple Arrastre Tank",
+    "badge": null,
+    "desc": "",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 1,
+    "image": ""
+  },  
+  {
+    "id": 5,
+    "category": "repuesto",
+    "name": "Kit Agujas Industriales x10",
+    "badge": null,
+    "desc": "Para recta industrial, todas las numeraciones.",
+    "price": "$1.800",
+    "priceNum": 1800,
+    "stock": 25,
+    "image": ""
+  },
+  {
+    "id": 6,
+    "category": "repuesto",
+    "name": "Correa Motor Universal",
+    "badge": null,
+    "desc": "Compatible con máquinas industriales y domésticas.",
+    "price": "$2.400",
+    "priceNum": 2400,
+    "stock": 15,
+    "image": ""
+  },
+  {
+    "id": 7,
+    "category": "industrial",
+    "name": "Collareta Industrial 3 Agujas",
+    "badge": null,
+    "desc": "Para terminaciones elásticas y telas de punto.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 1,
+    "image": ""
+  },
+  {
+    "id": 8,
+    "category": "repuesto",
+    "name": "Aceite de Máquina de Coser",
+    "badge": null,
+    "desc": "Lubricante premium para todo tipo de máquinas.",
+    "price": "$980",
+    "priceNum": 980,
+    "stock": 40,
+    "image": ""
+  }
+]

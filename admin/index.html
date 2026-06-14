@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Maquinarias Miguel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginScreen">
+  <div class="login-box">
+    <h1>Panel de Administración</h1>
+    <p class="login-desc">Ingresá la contraseña para gestionar los productos.</p>
+    <input type="password" id="passwordInput" placeholder="Contraseña" autofocus>
+    <button id="loginBtn">Ingresar</button>
+    <p id="loginError" class="login-error"></p>
+  </div>
+</div>
+
+<div id="adminApp" style="display:none">
+
+  <header>
+    <div class="header-inner">
+      <h1>Productos</h1>
+      <div class="header-actions">
+        <button class="btn-outline" onclick="importJSON()">Importar JSON</button>
+        <button class="btn-primary" onclick="exportJSON()">Exportar JSON</button>
+        <a href="../index.html" class="btn-outline" target="_blank">Ver sitio →</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <span id="productCount" class="product-count">0 productos</span>
+    </div>
+    <button class="btn-add" onclick="openForm()">+ Nuevo Producto</button>
+  </div>
+
+  <div id="productList" class="product-list"></div>
+
+  <!-- Form Modal -->
+  <div id="formOverlay" class="modal-overlay" style="display:none" onclick="closeForm()"></div>
+  <div id="formModal" class="modal" style="display:none">
+    <div class="modal-header">
+      <h2 id="formTitle">Nuevo Producto</h2>
+      <button class="modal-close" onclick="closeForm()">×</button>
+    </div>
+    <form id="productForm" onsubmit="saveProduct(event)">
+      <input type="hidden" id="productId">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="productName">Nombre *</label>
+          <input type="text" id="productName" required>
+        </div>
+        <div class="form-group">
+          <label for="productCategory">Categoría *</label>
+          <select id="productCategory" required>
+            <option value="industrial">Industrial</option>
+            <option value="familiar">Familiar</option>
+            <option value="repuesto">Repuesto</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="productDesc">Descripción *</label>
+        <textarea id="productDesc" rows="3" required></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="productPrice">Precio (texto)</label>
+          <input type="text" id="productPrice" placeholder="Ej: $1.800 o Consultar">
+        </div>
+        <div class="form-group">
+          <label for="productPriceNum">Precio (número, para total)</label>
+          <input type="number" id="productPriceNum" placeholder="Ej: 1800 — 0 si es a consultar" step="0.01">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="productStock">Stock</label>
+          <input type="number" id="productStock" placeholder="Cantidad en stock" min="0">
+        </div>
+        <div class="form-group">
+          <label for="productBadge">Badge (opcional)</label>
+          <input type="text" id="productBadge" placeholder="Ej: Más vendido, Nuevo">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Imagen del producto</label>
+        <div class="image-upload-row">
+          <div class="image-upload-url">
+            <label for="productImage">URL externa</label>
+            <input type="url" id="productImage" placeholder="https://ejemplo.com/imagen.jpg">
+          </div>
+          <div class="image-upload-or">o</div>
+          <div class="image-upload-file">
+            <label for="productImageFile">Subir archivo</label>
+            <div class="file-input-wrap">
+              <input type="file" id="productImageFile" accept="image/*">
+              <span class="file-input-label" id="fileInputLabel">Seleccionar archivo</span>
+            </div>
+          </div>
+        </div>
+        <div id="imagePreview" class="image-preview"></div>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="btn-cancel" onclick="closeForm()">Cancelar</button>
+        <button type="submit" class="btn-save">Guardar Producto</button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+<div id="emptyState" style="display:none">
+  <p>No hay productos. Creá el primero.</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

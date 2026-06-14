@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "category": "industrial",
+    "name": "Recta Industrial Gemsy",
+    "badge": "Más vendido",
+    "desc": "Motor servo 5000 ppm, corte automático de hilo. Ideal para talleres y producción textil.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 3,
+    "image": ""
+  },
+  {
+    "id": 2,
+    "category": "industrial",
+    "name": "Overlock Industrial 5 Hilos",
+    "badge": null,
+    "desc": "Remate y corte simultáneo. Alta velocidad para producción continua.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 2,
+    "image": ""
+  },
+  {
+    "id": 3,
+    "category": "familiar",
+    "name": "Janome DC3050",
+    "badge": "Nuevo",
+    "desc": "50 puntadas, LCD display, motor brushless silencioso.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 5,
+    "image": ""
+  },
+  {
+    "id": 4,
+    "category": "familiar",
+    "name": "Singer Heavy Duty 4452",
+    "badge": null,
+    "desc": "Costura de telas gruesas, 32 puntadas, estructura metálica.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 4,
+    "image": ""
+  },
+  {
+    "id": 5,
+    "category": "repuesto",
+    "name": "Kit Agujas Industriales x10",
+    "badge": null,
+    "desc": "Para recta industrial, todas las numeraciones.",
+    "price": "$1.800",
+    "priceNum": 1800,
+    "stock": 25,
+    "image": ""
+  },
+  {
+    "id": 6,
+    "category": "repuesto",
+    "name": "Correa Motor Universal",
+    "badge": null,
+    "desc": "Compatible con máquinas industriales y domésticas.",
+    "price": "$2.400",
+    "priceNum": 2400,
+    "stock": 15,
+    "image": ""
+  },
+  {
+    "id": 7,
+    "category": "industrial",
+    "name": "Collareta Industrial 3 Agujas",
+    "badge": null,
+    "desc": "Para terminaciones elásticas y telas de punto.",
+    "price": "Consultar",
+    "priceNum": 0,
+    "stock": 1,
+    "image": ""
+  },
+  {
+    "id": 8,
+    "category": "repuesto",
+    "name": "Aceite de Máquina de Coser",
+    "badge": null,
+    "desc": "Lubricante premium para todo tipo de máquinas.",
+    "price": "$980",
+    "priceNum": 980,
+    "stock": 40,
+    "image": ""
+  }
+]
