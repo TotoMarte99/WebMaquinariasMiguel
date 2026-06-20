@@ -25,12 +25,15 @@
 <div class="cursor-ring" id="cursorRing"></div>
 
 <!-- Cart notification -->
+ <!--
 <div class="notification" id="notification">
   <div class="notification-title">Agregado al carrito</div>
   <div class="notification-text" id="notification-text">Producto añadido correctamente</div>
 </div>
+-->
 
 <!-- Cart overlay & sidebar -->
+ <!--
 <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
 <div class="cart-sidebar" id="cartSidebar">
   <div class="cart-header">
@@ -58,7 +61,7 @@
     </button>
   </div>
 </div>
-
+-->
 <!-- NAV -->
 <nav id="navbar">
   <a href="#" class="nav-logo">
@@ -66,10 +69,11 @@
   </a>
   <ul class="nav-links">
     <li><a href="#servicios">Servicios</a></li>
-    <li><a href="#catalogo">Catálogo</a></li>
+    <!--<li><a href="#catalogo">Catálogo</a></li>-->
     <li><a href="#reparaciones">Reparaciones</a></li>
     <li><a href="#turnos">Turnos</a></li>
     <li><a href="#contacto">Contacto</a></li>
+    <!--
     <li>
       <button class="cart-icon-btn" onclick="toggleCart()">
         <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
@@ -77,6 +81,7 @@
         <span class="cart-bubble" id="cartBubble">0</span>
       </button>
     </li>
+    -->
     <li><a href="#turnos" class="nav-cta">Sacar Turno</a></li>
   </ul>
 </nav>
@@ -226,13 +231,14 @@
       <div class="service-icon">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
       </div>
-      <div class="service-name">Service a Domicilio</div>
-      <div class="service-desc">Revisamos y reparamos tu máquina en tu casa o taller. Diagnóstico gratuito. Cubrimos Rosario y Gran Rosario.</div>
+      <div class="service-name">Service Emergencia</div>
+      <div class="service-desc">Revisamos y Reparamos tu máquina de coser con prioridad, servicio dedicado a resolver esos problemas urgentes que surguen en medio de un trabajo.</div>
     </div>
   </div>
 </section>
-
+ 
 <!-- CATALOG -->
+ <!--
 <section class="catalog" id="catalogo">
   <div class="catalog-header">
     <div>
@@ -248,6 +254,7 @@
   </div>
   <div class="products-grid" id="productsGrid"></div>
 </section>
+-->
 
 <!-- REPAIRS -->
 <section class="repairs" id="reparaciones">
@@ -308,15 +315,15 @@
       <div class="form-grid reveal reveal-delay-2">
         <div class="form-group">
           <label class="form-label">Nombre y apellido</label>
-          <input type="text" class="form-input" placeholder="María García">
+          <input id="apptName" type="text" class="form-input" placeholder="María García">
         </div>
         <div class="form-group">
           <label class="form-label">Teléfono / WhatsApp</label>
-          <input type="tel" class="form-input" placeholder="+54 341 000-0000">
+          <input id="apptPhone" type="tel" class="form-input" placeholder="+54 341 000-0000">
         </div>
         <div class="form-group">
           <label class="form-label">Tipo de servicio</label>
-          <select class="form-select">
+          <select id="apptService" class="form-select">
             <option value="">Seleccioná un servicio</option>
             <option>Reparación — máquina familiar</option>
             <option>Reparación — máquina industrial</option>
@@ -327,11 +334,11 @@
         </div>
         <div class="form-group">
           <label class="form-label">Fecha preferida</label>
-          <input type="date" class="form-input">
+          <input id="apptDate" type="date" class="form-input">
         </div>
         <div class="form-group full">
           <label class="form-label">Descripción del problema</label>
-          <textarea class="form-textarea" placeholder="Contanos qué le pasa a tu máquina..."></textarea>
+          <textarea id="apptDesc" class="form-textarea" placeholder="Contanos qué le pasa a tu máquina..."></textarea>
         </div>
         <button class="form-submit" onclick="submitAppointment()">Confirmar Turno →</button>
       </div>
@@ -355,7 +362,7 @@
       <div class="info-block">
         <div class="info-block-label">Teléfono</div>
         <div class="info-block-content">
-          <strong>(0341) 455-1334</strong>
+          <strong>(0341) 610-5083</strong>
         </div>
       </div>
       <div class="info-block">
@@ -440,11 +447,11 @@
     <div>
       <div class="footer-col-title">Productos</div>
       <ul class="footer-links">
-        <li><a href="#catalogo">Máquinas industriales</a></li>
-        <li><a href="#catalogo">Máquinas familiares</a></li>
-        <li><a href="#catalogo">Bordadoras</a></li>
-        <li><a href="#catalogo">Cortadoras</a></li>
-        <li><a href="#catalogo">Accesorios</a></li>
+        <li><a href="https://wa.link/euxvmc">Máquinas industriales</a></li>
+        <li><a href="https://wa.link/euxvmc">Máquinas familiares</a></li>
+        <li><a href="https://wa.link/euxvmc">Bordadoras</a></li>
+        <li><a href="https://wa.link/euxvmc">Cortadoras</a></li>
+        <li><a href="https://wa.link/euxvmc">Accesorios</a></li>
       </ul>
     </div>
     <div>
@@ -460,14 +467,17 @@
   </div>
   <div class="footer-bottom">
     <div class="footer-copy">© 2025 Maquinarias Miguel. Todos los derechos reservados.</div>
+    
     <div class="footer-socials">
       <a href="https://www.facebook.com/maquinariasmiguel/" target="_blank" class="social-link">f</a>
       <a href="https://wa.link/j76wdg" target="_blank" class="social-link">w</a>
       <a href="https://maquinariasmiguel.com" target="_blank" class="social-link">↗</a>
     </div>
   </div>
+  <a href="https://www.linkedin.com/company/tcmsistemas" class="link-dev" target="_blank">© Desarrollo — AgenciaTM</a>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

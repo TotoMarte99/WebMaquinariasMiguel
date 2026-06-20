@@ -1082,6 +1082,15 @@ footer {
 }
 .social-link:hover { border-color: var(--gold); color: var(--gold); }
 
+.link-dev {
+  font-size: 11px;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.25s;
+}
+.link-dev:hover { color: var(--gold); }
+
 /* ── NOTIFICATIONS ── */
 .notification {
   position: fixed;

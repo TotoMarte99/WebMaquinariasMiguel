@@ -1,3 +1,4 @@
+
 // ── PRODUCTS DATA ──
 let products = [];
 let cart = [];
@@ -127,9 +128,60 @@ function showNotification(name) {
   n._timeout = setTimeout(() => n.classList.remove('show'), 3000);
 }
 
+// ── EMAILJS CONFIG ── Reemplazá estos valores con los de tu cuenta emailjs.com
+const EMAILJS_PUBLIC_KEY  = '8cYzkUl-Fgil8U2ow';
+const EMAILJS_SERVICE_ID  = 'service_v0gkl4y';
+const EMAILJS_TEMPLATE_ID = 'template_m1jf2n1';
+
+emailjs.init(EMAILJS_PUBLIC_KEY);
+
 function submitAppointment() {
-  showNotification('¡Turno solicitado! Te contactaremos pronto');
-  document.getElementById('notification').querySelector('.notification-title').textContent = '¡Turno solicitado!';
+  const name    = document.getElementById('apptName').value.trim();
+  const phone   = document.getElementById('apptPhone').value.trim();
+  const service = document.getElementById('apptService').value;
+  const date    = document.getElementById('apptDate').value;
+  const desc    = document.getElementById('apptDesc').value.trim();
+
+  const errors = [];
+  if (!name)    errors.push('Nombre y apellido');
+  if (!phone)   errors.push('Teléfono / WhatsApp');
+  if (!service) errors.push('Tipo de servicio');
+  if (!date)    errors.push('Fecha preferida');
+
+  if (errors.length) {
+    alert('Por favor completá los siguientes campos:\n• ' + errors.join('\n• '));
+    return;
+  }
+
+  const btn = document.querySelector('.form-submit');
+  btn.disabled = true;
+  btn.textContent = 'Enviando...';
+
+  emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+    cliente_nombre:  name,
+    cliente_telefono: phone,
+    servicio:        service,
+    fecha_preferida: date,
+    descripcion:     desc || '(sin descripción)',
+    to_email:        'maquinariasmiguel@hotmail.com',
+  }).then(() => {
+    btn.textContent = 'Confirmar Turno →';
+    btn.disabled = false;
+
+    document.getElementById('apptName').value    = '';
+    document.getElementById('apptPhone').value   = '';
+    document.getElementById('apptService').value = '';
+    document.getElementById('apptDate').value    = '';
+    document.getElementById('apptDesc').value    = '';
+
+    alert('¡Turno solicitado! Te contactaremos pronto.');
+
+  }).catch((err) => {
+    btn.textContent = 'Confirmar Turno →';
+    btn.disabled = false;
+    console.error('EmailJS error:', err);
+    alert('Hubo un error al enviar el turno. Intentá de nuevo o contactanos por WhatsApp.');
+  });
 }
 
 // ── CHECKOUT ──
