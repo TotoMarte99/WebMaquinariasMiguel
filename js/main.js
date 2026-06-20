@@ -128,11 +128,7 @@ function showNotification(name) {
   n._timeout = setTimeout(() => n.classList.remove('show'), 3000);
 }
 
-// ── EMAILJS CONFIG ── Reemplazá estos valores con los de tu cuenta emailjs.com
-const EMAILJS_PUBLIC_KEY  = '8cYzkUl-Fgil8U2ow';
-const EMAILJS_SERVICE_ID  = 'service_v0gkl4y';
-const EMAILJS_TEMPLATE_ID = 'template_m1jf2n1';
-
+// ── EMAILJS CONFIG ── credenciales en js/config.js (gitignored)
 emailjs.init(EMAILJS_PUBLIC_KEY);
 
 function submitAppointment() {
