@@ -1,0 +1,47 @@
+<!--
+  Template de EmailJS para notificar pedidos de la tienda.
+  En EmailJS → Email Templates → Create New Template:
+    · Subject:   {{pedido_tipo}} {{pedido_numero}} — {{cliente_nombre}} — {{total}}
+    · To Email:  {{to_email}}
+    · Reply To:  {{reply_to}}
+    · Content:   pegar este HTML (botón "Edit Content" → "Code Editor")
+  Copiar el Template ID en js/config.js → EMAILJS_ORDER_TEMPLATE_ID
+-->
+<div style="font-family:Arial,Helvetica,sans-serif;max-width:640px;margin:0 auto;color:#222;">
+  <div style="background:#111;padding:24px 28px;border-bottom:3px solid #ffc107;">
+    <div style="color:#ffc107;font-size:12px;letter-spacing:2px;text-transform:uppercase;">Tienda online · Nuevo pedido</div>
+    <div style="color:#fff;font-size:24px;font-weight:bold;margin-top:6px;">{{pedido_tipo}} {{pedido_numero}}</div>
+    <div style="color:#aaa;font-size:13px;margin-top:4px;">{{pedido_fecha}}</div>
+  </div>
+
+  <div style="padding:20px 28px;background:#fff8e1;border-left:4px solid #ffc107;font-size:14px;">
+    <strong>Estado:</strong> {{pedido_estado}}<br>
+    <strong>Pago:</strong> {{metodo_pago}}<br>
+    <strong>Entrega:</strong> {{entrega}}
+  </div>
+
+  <div style="padding:24px 28px;">
+    <h3 style="margin:0 0 12px;font-size:15px;text-transform:uppercase;letter-spacing:1px;">Cliente</h3>
+    <table style="font-size:14px;line-height:1.7;">
+      <tr><td style="color:#888;padding-right:16px;">Nombre</td><td>{{cliente_nombre}}</td></tr>
+      <tr><td style="color:#888;padding-right:16px;">Teléfono</td><td>{{cliente_telefono}} · <a href="{{whatsapp_cliente}}">Escribir por WhatsApp</a></td></tr>
+      <tr><td style="color:#888;padding-right:16px;">Email</td><td>{{cliente_email}}</td></tr>
+      <tr><td style="color:#888;padding-right:16px;">Facturación</td><td>{{cliente_documento}}</td></tr>
+      <tr><td style="color:#888;padding-right:16px;">Dirección envío</td><td>{{direccion_envio}}</td></tr>
+      <tr><td style="color:#888;padding-right:16px;">Notas</td><td>{{notas}}</td></tr>
+    </table>
+
+    <h3 style="margin:28px 0 12px;font-size:15px;text-transform:uppercase;letter-spacing:1px;">Productos</h3>
+    {{{productos_html}}}
+
+    <table style="width:100%;font-size:14px;margin-top:16px;">
+      <tr><td style="color:#888;">Subtotal</td><td style="text-align:right;">{{subtotal}}</td></tr>
+      <tr><td style="color:#888;">Descuento</td><td style="text-align:right;">{{descuento}}</td></tr>
+      <tr><td style="font-size:18px;font-weight:bold;padding-top:8px;">Total</td><td style="text-align:right;font-size:18px;font-weight:bold;padding-top:8px;">{{total}}</td></tr>
+    </table>
+  </div>
+
+  <div style="padding:16px 28px;background:#f5f3ee;color:#888;font-size:12px;">
+    Pedido generado desde la tienda online de Maquinarias Miguel. El stock no se descuenta automáticamente: actualizalo en el catálogo.
+  </div>
+</div>
