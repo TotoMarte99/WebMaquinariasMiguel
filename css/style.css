@@ -921,6 +921,9 @@ section { padding: 100px 64px; }
   margin-top: 8px;
 }
 .form-submit:hover { background: var(--gold-light); transform: translateY(-2px); }
+.form-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+.form-recaptcha { margin-top: 8px; }
+.form-recaptcha > div { min-height: 78px; }
 
 .appointment-info { padding-top: 0; }
 .info-block {
@@ -1145,7 +1148,9 @@ footer {
   .services-grid { grid-template-columns: 1fr; }
   .products-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .repairs { grid-template-columns: 1fr; padding: 64px 32px; }
+  .hero-title { font-size: clamp(48px, 12vw, 76px); }
+  .repairs { grid-template-columns: 1fr; gap: 48px; padding: 64px 32px; }
+  .repair-cta-box { padding: 36px 32px; }
   .appointment-inner { grid-template-columns: 1fr; }
   .form-grid { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr 1fr; }
@@ -1424,6 +1429,34 @@ footer {
   .cart-icon-label { display: none; }
 }
 
-@media (hover: none) {
-  .cursor, .cursor-ring { display: none; }
+@media (hover: none), (pointer: coarse) {
+  .cursor, .cursor-ring { display: none !important; }
+}
+
+/* ── AJUSTES PARA CELULARES ── */
+@media (max-width: 600px) {
+  #navbar { padding: 0 20px; }
+  section { padding: 56px 20px; }
+  .hero-left { padding: 104px 20px 56px; }
+  .hero-title { font-size: clamp(42px, 14vw, 60px); margin-bottom: 24px; }
+  .hero-desc { font-size: 15px; margin-bottom: 36px; }
+  .hero-actions { flex-direction: column; align-items: stretch; gap: 14px; }
+  .btn-primary { text-align: center; }
+  .btn-secondary { text-align: center; padding-bottom: 6px; }
+  .hero-stats { flex-wrap: wrap; gap: 24px 32px; margin-top: 48px; padding-top: 32px; }
+  .stat-num { font-size: 34px; }
+
+  .services-header { margin-bottom: 40px; }
+  .service-card { padding: 40px 26px; }
+
+  .repairs { gap: 40px; padding: 56px 20px; }
+  .repair-cta-box { padding: 28px 24px; }
+  .repair-cta-box::before { font-size: 68px; right: -12px; bottom: -12px; }
+
+  .appointment { padding: 56px 20px; }
+  .testimonial-card { padding: 32px 26px; }
+
+  footer { padding: 56px 20px 32px; }
+  .footer-top { grid-template-columns: 1fr; gap: 32px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 20px; }
 }
