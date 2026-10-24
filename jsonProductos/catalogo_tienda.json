@@ -1,0 +1,1553 @@
+{
+  "tienda": {
+    "nombre": "Maquinarias Miguel",
+    "rubro": "Máquinas de coser, servicio técnico y suministros para el taller de costura",
+    "ubicacion": {
+      "ciudad": "Rosario",
+      "provincia": "Santa Fe",
+      "zona": "Zona Norte, Barrio La Florida"
+    },
+    "moneda": "ARS",
+    "retiro_en_local": true,
+    "envios": "A todo el país",
+    "facturacion": [
+      "Factura A",
+      "Factura B"
+    ],
+    "servicios": [
+      "Venta de máquinas de coser",
+      "Repuestos y accesorios",
+      "Hilos e insumos",
+      "Servicio técnico"
+    ]
+  },
+  "categorias": [
+    {
+      "id": "maquinas-de-coser",
+      "nombre": "Máquinas de coser",
+      "orden": 1
+    },
+    {
+      "id": "overlock",
+      "nombre": "Overlock",
+      "orden": 2
+    },
+    {
+      "id": "cortadoras",
+      "nombre": "Cortadoras de tela",
+      "orden": 3
+    },
+    {
+      "id": "hilos",
+      "nombre": "Hilos",
+      "orden": 4
+    },
+    {
+      "id": "accesorios",
+      "nombre": "Accesorios y repuestos",
+      "orden": 5
+    },
+    {
+      "id": "lubricantes",
+      "nombre": "Aceites y lubricantes",
+      "orden": 6
+    }
+  ],
+  "productos": [
+    {
+      "id": "lumina-linda",
+      "sku": "LUM-LINDA",
+      "slug": "maquina-de-coser-lumina-linda-recta-multifuncion",
+      "nombre": "Máquina de coser Lumina Linda recta multifunción",
+      "marca": "Lumina",
+      "modelo": "Linda",
+      "categoria": "maquinas-de-coser",
+      "descripcion_corta": "Máquina de coser recta multifunción ideal para empezar: liviana, portátil y con 12 diseños de puntada.",
+      "descripcion": "La Lumina Linda es una máquina de iniciación: fácil de manejar, intuitiva y liviana. Por su tamaño la guardás en cualquier lugar.\n\nCon sus 12 diseños de puntada podés hacer tus propios arreglos: dobladillos, pegar botones, coser cierres y zurcir. Ideal para manualidades, apliques, decoración del hogar y reparación de prendas.",
+      "caracteristicas": [
+        "12 diseños de puntada",
+        "Ojal en 4 pasos",
+        "Cortador de hilo",
+        "Botón de puntada inversa",
+        "Bobinadora automática",
+        "Luz LED de larga duración",
+        "Brazo libre",
+        "Pedal electrónico",
+        "Manija para transportar"
+      ],
+      "especificaciones": {
+        "Tipo": "Recta multifunción",
+        "Puntadas": "12",
+        "Velocidad": "650 ± 50 puntadas por minuto",
+        "Aguja": "HA x 1",
+        "Ancho máximo de puntada": "4,5 mm",
+        "Largo máximo de puntada": "4,6 mm",
+        "Altura máxima del pie": "5,5 mm",
+        "Potencia": "71 W",
+        "Voltaje": "220 V / 50 Hz",
+        "Peso neto": "5 kg",
+        "Medidas de la máquina": "345 x 145 x 270 mm",
+        "Medidas de la caja": "408 x 210 x 338 mm",
+        "Telas": "Livianas, medianas y pesadas",
+        "Incluye": "3 carreteles, abreojal/cepillo, pie de ojal, juego de agujas, fieltro"
+      },
+      "precio": 259900,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 3,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_935481-MLA99452378074_112025-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_807642-MLA114854901399_072026-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_817419-MLA113580684178_072026-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_928808-MLA113580684200_072026-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_794933-MLA114855605409_072026-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 5",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_793455-MLA114855810641_072026-O.jpg",
+          "alt": "Máquina de coser Lumina Linda recta multifunción - foto 6",
+          "principal": false
+        }
+      ],
+      "variantes": [
+        {
+          "sku": "LUM-LINDA-VERDE",
+          "nombre": "Verde",
+          "atributos": {
+            "color": "Verde"
+          },
+          "precio": 259900,
+          "disponible": true
+        },
+        {
+          "sku": "LUM-LINDA-ROSA",
+          "nombre": "Rosa",
+          "atributos": {
+            "color": "Rosa"
+          },
+          "precio": 259900,
+          "disponible": false
+        },
+        {
+          "sku": "LUM-LINDA-VERDELIMA",
+          "nombre": "Verde lima",
+          "atributos": {
+            "color": "Verde lima"
+          },
+          "precio": 259900,
+          "disponible": false
+        },
+        {
+          "sku": "LUM-LINDA-VIOLETA",
+          "nombre": "Violeta",
+          "atributos": {
+            "color": "Violeta"
+          },
+          "precio": 259900,
+          "disponible": false
+        }
+      ],
+      "etiquetas": [
+        "máquina de coser",
+        "familiar",
+        "principiantes",
+        "portátil",
+        "lumina"
+      ],
+      "destacado": true,
+      "activo": true,
+      "seo": {
+        "titulo": "Máquina de coser Lumina Linda recta multifunción | Maquinarias Miguel",
+        "descripcion": "Máquina de coser recta multifunción ideal para empezar: liviana, portátil y con 12 diseños de puntada."
+      }
+    },
+    {
+      "id": "enigma-platinum-2332",
+      "sku": "ENIGMA-2332",
+      "slug": "maquina-de-coser-enigma-platinum-2332",
+      "nombre": "Máquina de coser Enigma Platinum 2332",
+      "marca": "Enigma",
+      "modelo": "Platinum 2332",
+      "categoria": "maquinas-de-coser",
+      "descripcion_corta": "Máquina de coser de alta gama con estructura interna metálica, ojalador automático en un paso y enhebrador automático. Cose jean y telas gruesas sin trabarse.",
+      "descripcion": "La Enigma Platinum 2332 está pensada para quien necesita potencia, durabilidad y buena terminación en cada puntada. Su estructura interna de aluminio reforzado le da la estabilidad que piden los trabajos profesionales: no vibra ni se descalibra, incluso a máxima velocidad.\n\nTiene arrastre de sobra para coser desde seda fina hasta varias capas de jean y telas pesadas. Es una muy buena opción para pasar de lo doméstico a lo profesional por su relación precio-calidad.\n\nNueva, en caja cerrada.",
+      "caracteristicas": [
+        "Chasis interno metálico (aluminio reforzado)",
+        "Ojalador automático en un paso",
+        "Puntadas elásticas (stretch) y decorativas",
+        "Enhebrador automático de aguja",
+        "Ancho y largo de puntada regulables",
+        "Brazo libre para puños, mangas y botamangas",
+        "Iluminación LED blanca fría"
+      ],
+      "especificaciones": {
+        "Ancho máximo de puntada": "5 mm",
+        "Largo máximo de puntada": "4 mm",
+        "Ojal": "Automático en 1 paso",
+        "Enhebrador": "Automático",
+        "Tecnología": "Mecánica",
+        "Voltaje": "220 V",
+        "Color": "Blanco",
+        "Estilos de costura": "Recta, zigzag, overlock, patchwork, decorativa"
+      },
+      "precio": 1188028.8,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": "1 año (del vendedor)",
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_951025-MLA99506158158_112025-O.jpg",
+          "alt": "Máquina de coser Enigma Platinum 2332 - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_998658-MLA105822975941_012026-O.jpg",
+          "alt": "Máquina de coser Enigma Platinum 2332 - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_967145-MLA105239750112_012026-O.jpg",
+          "alt": "Máquina de coser Enigma Platinum 2332 - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_724156-MLA105239927826_012026-O.jpg",
+          "alt": "Máquina de coser Enigma Platinum 2332 - foto 4",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "máquina de coser",
+        "profesional",
+        "jean",
+        "telas gruesas",
+        "enigma"
+      ],
+      "destacado": true,
+      "activo": true,
+      "seo": {
+        "titulo": "Máquina de coser Enigma Platinum 2332 | Maquinarias Miguel",
+        "descripcion": "Máquina de coser de alta gama con estructura interna metálica, ojalador automático en un paso y enhebrador automático. Cose jean y telas gruesas sin trabarse."
+      }
+    },
+    {
+      "id": "lumina-moda",
+      "sku": "LUM-MODA",
+      "slug": "overlock-lumina-moda-4-hilos",
+      "nombre": "Overlock Lumina Moda 4 hilos",
+      "marca": "Lumina",
+      "modelo": "Moda",
+      "categoria": "overlock",
+      "descripcion_corta": "Overlock de 4 hilos con brazo libre y arrastre diferencial. Cose en 4, 3 y 2 hilos con 13 puntadas, incluido dobladillo enrollado.",
+      "descripcion": "La Lumina Moda es una overlock de 4 hilos para lograr terminaciones prolijas en tus prendas. Sirve tanto para modistas como para negocios de arreglos.\n\nSu brazo libre te permite trabajar cómodo con prendas tubulares (puños, mangas, botamangas) y el arrastre diferencial evita que la tela se arrugue o se estire.",
+      "caracteristicas": [
+        "Cose en 4, 3 y 2 hilos",
+        "13 tipos de puntada, incluido dobladillo enrollado",
+        "Brazo libre",
+        "Arrastre diferencial",
+        "Cuchilla superior móvil y cuchilla inferior",
+        "Ajuste de tensión",
+        "Largo de puntada y ancho de corte regulables",
+        "Estructura metálica",
+        "Luz LED",
+        "Pedal electrónico con control de velocidad",
+        "Bandeja para recortes",
+        "Cortahilos manual"
+      ],
+      "especificaciones": {
+        "Hilos": "4, 3 y 2",
+        "Puntadas": "13",
+        "Velocidad": "1.200 puntadas por minuto",
+        "Potencia": "90 W",
+        "Voltaje": "220 V",
+        "Peso": "7,5 kg",
+        "Medidas": "32 x 32 x 22 cm",
+        "Color": "Naranja",
+        "Incluye": "3 agujas, discos de cono, cuchilla inferior, barra guía, cepillo, pinzas, 3 destornilladores, soporte para 2 hilos, pedal electrónico, funda protectora"
+      },
+      "precio": 469900,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_641242-MLA99454594514_112025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_961125-MLA92604227507_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_659035-MLA92604073393_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_954755-MLA92604217603_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_968509-MLA92604198259_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 5",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_601436-MLA92604093231_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 6",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_684042-MLA92604266441_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 7",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_922801-MLA103925708054_012026-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 8",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_951587-MLA92604198303_092025-O.jpg",
+          "alt": "Overlock Lumina Moda 4 hilos - foto 9",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "overlock",
+        "4 hilos",
+        "brazo libre",
+        "lumina"
+      ],
+      "destacado": true,
+      "activo": true,
+      "seo": {
+        "titulo": "Overlock Lumina Moda 4 hilos | Maquinarias Miguel",
+        "descripcion": "Overlock de 4 hilos con brazo libre y arrastre diferencial. Cose en 4, 3 y 2 hilos con 13 puntadas, incluido dobladillo enrollado."
+      }
+    },
+    {
+      "id": "premier-gn1-6d",
+      "sku": "PREMIER-GN1",
+      "slug": "overlock-semiindustrial-premier-gn1-6d-3-hilos",
+      "nombre": "Overlock semiindustrial Premier GN1-6D 3 hilos",
+      "marca": "Premier",
+      "modelo": "GN1-6D",
+      "categoria": "overlock",
+      "descripcion_corta": "Overlock semiindustrial de 3 hilos, totalmente metálica. Para jersey, modal, lycra, friza, polar, jean y más.",
+      "descripcion": "Overlock semiindustrial de 3 hilos, totalmente metálica y muy fácil de usar.\n\nIdeal para todo tipo de telas (jersey, modal, lycra, friza, polar, jean y más) y pensada para la fabricación de indumentaria y microemprendimientos.",
+      "caracteristicas": [
+        "3 hilos",
+        "Totalmente metálica",
+        "Portátil",
+        "Para telas de punto y planas",
+        "Ideal para microemprendimientos"
+      ],
+      "especificaciones": {
+        "Tipo": "Overlock semiindustrial",
+        "Hilos": "3",
+        "Enhebrador": "Manual",
+        "Tecnología": "Mecánica",
+        "Voltaje": "220 V",
+        "Color": "Verde",
+        "Incluye": "Herramientas"
+      },
+      "precio": 370000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 4,
+      "condicion": "nuevo",
+      "garantia": "1 año (del vendedor)",
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_829241-MLA91988950997_092025-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_713687-MLA107903306639_032026-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_747993-MLA107201876040_032026-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_728441-MLA106182427491_012026-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_713677-MLA106183195883_012026-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 5",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_825059-MLA107903306675_032026-O.jpg",
+          "alt": "Overlock semiindustrial Premier GN1-6D 3 hilos - foto 6",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "overlock",
+        "semiindustrial",
+        "3 hilos",
+        "emprendimiento"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Overlock semiindustrial Premier GN1-6D 3 hilos | Maquinarias Miguel",
+        "descripcion": "Overlock semiindustrial de 3 hilos, totalmente metálica. Para jersey, modal, lycra, friza, polar, jean y más."
+      }
+    },
+    {
+      "id": "lumina-verona",
+      "sku": "LUM-VERONA",
+      "slug": "cortadora-de-tela-circular-lumina-verona-4",
+      "nombre": "Cortadora de tela circular Lumina Verona 4\"",
+      "marca": "Lumina",
+      "modelo": "Verona",
+      "categoria": "cortadoras",
+      "descripcion_corta": "Cortadora de tela circular de 4\" con servomotor de bajo consumo. Liviana (1,3 kg), silenciosa y con luz LED. Corta varias capas.",
+      "descripcion": "La Lumina Verona es una cortadora de telas ergonómica, liviana y con motor de bajo consumo, ideal para cualquier emprendimiento de costura.\n\nSu servomotor ahorra hasta un 80% de energía, no usa aceite de transmisión (no mancha los materiales) y no produce chispas. Pesa 1,3 kg: es un 60% más liviana y un 50% más chica que el modelo tradicional, sin perder capacidad de trabajo.\n\nCorta jean, cuero, algodón y otros materiales, y tiene fuerza para cortar varias capas de tela a la vez.",
+      "caracteristicas": [
+        "Servomotor de bajo consumo (hasta 80% de ahorro)",
+        "Velocidad regulable",
+        "Luz LED",
+        "Protector de cuchilla",
+        "Afilador automático",
+        "Bajo nivel de ruido",
+        "Sin aceite de transmisión",
+        "Diseño ergonómico"
+      ],
+      "especificaciones": {
+        "Cuchilla": "Circular de acero, 4\" (10,16 cm)",
+        "Altura de corte": "27 mm",
+        "Potencia": "300 W",
+        "Voltaje": "220 V",
+        "Peso": "1,3 kg",
+        "Color": "Naranja",
+        "Incluye": "Llave y piedra de afilar de repuesto"
+      },
+      "precio": 225900,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 2,
+      "condicion": "nuevo",
+      "garantia": "1 año (del vendedor)",
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_990853-MLA105341496039_012026-O.jpg",
+          "alt": "Cortadora de tela circular Lumina Verona 4\" - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_902414-MLA105340630337_012026-O.jpg",
+          "alt": "Cortadora de tela circular Lumina Verona 4\" - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_815123-MLA78494506872_082024-O.jpg",
+          "alt": "Cortadora de tela circular Lumina Verona 4\" - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_861828-MLA78726956869_082024-O.jpg",
+          "alt": "Cortadora de tela circular Lumina Verona 4\" - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_751827-MLA78494506866_082024-O.jpg",
+          "alt": "Cortadora de tela circular Lumina Verona 4\" - foto 5",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "cortadora",
+        "corte de tela",
+        "taller",
+        "lumina"
+      ],
+      "destacado": true,
+      "activo": true,
+      "seo": {
+        "titulo": "Cortadora de tela circular Lumina Verona 4\" | Maquinarias Miguel",
+        "descripcion": "Cortadora de tela circular de 4\" con servomotor de bajo consumo. Liviana (1,3 kg), silenciosa y con luz LED. Corta varias capas."
+      }
+    },
+    {
+      "id": "hilo-overlock-vahe-unidad",
+      "sku": "VAHE-OVL-410",
+      "slug": "hilo-overlock-vahe-poliester-410-g",
+      "nombre": "Hilo overlock VAHE poliéster 410 g",
+      "marca": "VAHE",
+      "modelo": "150",
+      "categoria": "hilos",
+      "descripcion_corta": "Hilo overlock de poliéster texturizado, cono de 410 g. Se vende por unidad, en distintos colores.",
+      "descripcion": "Hilo overlock de poliéster texturizado en cono de 410 g aproximadamente, para costura a máquina. Se vende por unidad.",
+      "caracteristicas": [
+        "Poliéster texturizado",
+        "Cono de 410 g",
+        "Para máquinas overlock",
+        "Varios colores"
+      ],
+      "especificaciones": {
+        "Composición": "Poliéster texturizado",
+        "Presentación": "Cono",
+        "Peso": "410 g aprox.",
+        "Elástico": "No",
+        "Encerado": "No"
+      },
+      "precio": 8800,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 35,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_929899-MLA106923545469_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_719809-MLA107799731013_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_832059-MLA106923664939_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_964313-MLA106293716540_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g - foto 4",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "hilo",
+        "overlock",
+        "poliéster",
+        "vahe"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo overlock VAHE poliéster 410 g | Maquinarias Miguel",
+        "descripcion": "Hilo overlock de poliéster texturizado, cono de 410 g. Se vende por unidad, en distintos colores."
+      }
+    },
+    {
+      "id": "hilo-overlock-vahe-pack6",
+      "sku": "VAHE-OVL-410-X6",
+      "slug": "hilo-overlock-vahe-poliester-410-g-pack-x6",
+      "nombre": "Hilo overlock VAHE poliéster 410 g pack x6",
+      "marca": "VAHE",
+      "modelo": "150",
+      "categoria": "hilos",
+      "descripcion_corta": "Pack de 6 conos de hilo overlock de poliéster texturizado de 410 g, en blanco o negro.",
+      "descripcion": "Pack de 6 conos de hilo overlock de poliéster texturizado de 410 g aproximadamente cada uno.\n\nElegí blanco o negro. Si querés combinar ambos colores dentro del pack, indicalo en las notas del pedido.",
+      "caracteristicas": [
+        "6 conos de 410 g",
+        "Poliéster texturizado",
+        "Blanco o negro"
+      ],
+      "especificaciones": {
+        "Composición": "Poliéster texturizado",
+        "Presentación": "Pack de 6 conos",
+        "Peso por cono": "410 g aprox."
+      },
+      "precio": 36498.92,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 40,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_877474-MLA106923279285_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g pack x6 - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_747193-MLA106293709140_022026-O.jpg",
+          "alt": "Hilo overlock VAHE poliéster 410 g pack x6 - foto 2",
+          "principal": false
+        }
+      ],
+      "variantes": [
+        {
+          "sku": "VAHE-OVL-410-X6-BLANCO",
+          "nombre": "Blanco",
+          "atributos": {
+            "color": "Blanco"
+          },
+          "precio": 36498.92,
+          "disponible": true
+        },
+        {
+          "sku": "VAHE-OVL-410-X6-NEGRO",
+          "nombre": "Negro",
+          "atributos": {
+            "color": "Negro"
+          },
+          "precio": 36498.92,
+          "disponible": true
+        }
+      ],
+      "etiquetas": [
+        "hilo",
+        "overlock",
+        "pack",
+        "mayorista",
+        "vahe"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo overlock VAHE poliéster 410 g pack x6 | Maquinarias Miguel",
+        "descripcion": "Pack de 6 conos de hilo overlock de poliéster texturizado de 410 g, en blanco o negro."
+      }
+    },
+    {
+      "id": "hilo-caiman-cono",
+      "sku": "CAIMAN-4000",
+      "slug": "hilo-caiman-poliester-fibra-cortada-4000-m",
+      "nombre": "Hilo Caimán poliéster fibra cortada 4000 m",
+      "marca": "Caimán",
+      "modelo": "Poliéster fibra cortada",
+      "categoria": "hilos",
+      "descripcion_corta": "Hilo de poliéster de fibra cortada, cono de 4000 m, título 40/2. Para rectas industriales y familiares. Muchos colores.",
+      "descripcion": "Hilo de poliéster de fibra cortada marca Caimán, hecho para la exigencia de la industria textil. Desliza muy bien y resiste el roce de la aguja a altas velocidades.\n\nIdeal para confección de prendas y especialmente para cestería nórdica, donde las uniones necesitan firmeza y durabilidad.\n\nLos colores de las fotos pueden variar levemente según la pantalla.",
+      "caracteristicas": [
+        "Cono de 4000 m",
+        "Título 40/2",
+        "Alta resistencia",
+        "Para rectas industriales y familiares",
+        "Apto cestería nórdica"
+      ],
+      "especificaciones": {
+        "Composición": "Poliéster de fibra cortada",
+        "Título": "40/2",
+        "Grosor aproximado": "0,2 a 0,3 mm",
+        "Metraje": "4000 m",
+        "Presentación": "Cono",
+        "Elástico": "No",
+        "Encerado": "No"
+      },
+      "precio": 5080,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 789,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_770445-MLA106362957882_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster fibra cortada 4000 m - foto 1",
+          "principal": true
+        }
+      ],
+      "variantes": [
+        {
+          "sku": "CAIMAN-4000-AMARILLO-66",
+          "nombre": "Amarillo 66",
+          "atributos": {
+            "color": "Amarillo 66"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-AZUL-136",
+          "nombre": "Azul 136",
+          "atributos": {
+            "color": "Azul 136"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-AZUL-75",
+          "nombre": "Azul 75",
+          "atributos": {
+            "color": "Azul 75"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-AZUL-MARINO",
+          "nombre": "Azul marino",
+          "atributos": {
+            "color": "Azul marino"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-BORDO-62",
+          "nombre": "Bordó 62",
+          "atributos": {
+            "color": "Bordó 62"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-BORDO",
+          "nombre": "Bordó",
+          "atributos": {
+            "color": "Bordó"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-CELESTE-131",
+          "nombre": "Celeste 131",
+          "atributos": {
+            "color": "Celeste 131"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-CELESTE-74",
+          "nombre": "Celeste 74",
+          "atributos": {
+            "color": "Celeste 74"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-CRUDO-101",
+          "nombre": "Crudo 101",
+          "atributos": {
+            "color": "Crudo 101"
+          },
+          "precio": 5080,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-GRIS-102",
+          "nombre": "Gris 102",
+          "atributos": {
+            "color": "Gris 102"
+          },
+          "precio": 5080,
+          "disponible": true
+        }
+      ],
+      "etiquetas": [
+        "hilo",
+        "poliéster",
+        "costura recta",
+        "cestería nórdica",
+        "caimán"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo Caimán poliéster fibra cortada 4000 m | Maquinarias Miguel",
+        "descripcion": "Hilo de poliéster de fibra cortada, cono de 4000 m, título 40/2. Para rectas industriales y familiares. Muchos colores."
+      }
+    },
+    {
+      "id": "hilo-caiman-caja10",
+      "sku": "CAIMAN-4000-X10",
+      "slug": "hilo-caiman-poliester-4000-m-caja-x10-conos",
+      "nombre": "Hilo Caimán poliéster 4000 m caja x10 conos",
+      "marca": "Caimán",
+      "modelo": "Poliéster fibra cortada",
+      "categoria": "hilos",
+      "descripcion_corta": "Caja de 10 conos de hilo Caimán de poliéster de fibra cortada, 4000 m cada uno, título 40/2. Blanco o negro.",
+      "descripcion": "Caja de 10 conos de hilo de poliéster de fibra cortada Caimán, de 4000 m cada uno.\n\nIdeal para máquinas rectas industriales y familiares, confección de prendas y cestería nórdica.",
+      "caracteristicas": [
+        "10 conos de 4000 m",
+        "Título 40/2",
+        "Blanco o negro"
+      ],
+      "especificaciones": {
+        "Composición": "Poliéster de fibra cortada",
+        "Título": "40/2",
+        "Metraje por cono": "4000 m",
+        "Presentación": "Caja de 10 conos",
+        "Peso de la caja": "1,39 kg"
+      },
+      "precio": 31000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 12,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_751675-MLA106671996337_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_893977-MLA106054521916_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_992007-MLA106054229586_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_925619-MLA106671586219_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_830684-MLA106671496333_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 5",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_809389-MLA106671586391_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 6",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_976243-MLA106672088585_022026-O.jpg",
+          "alt": "Hilo Caimán poliéster 4000 m caja x10 conos - foto 7",
+          "principal": false
+        }
+      ],
+      "variantes": [
+        {
+          "sku": "CAIMAN-4000-X10-BLANCO",
+          "nombre": "Blanco",
+          "atributos": {
+            "color": "Blanco"
+          },
+          "precio": 31000,
+          "stock": 6,
+          "disponible": true
+        },
+        {
+          "sku": "CAIMAN-4000-X10-NEGRO",
+          "nombre": "Negro",
+          "atributos": {
+            "color": "Negro"
+          },
+          "precio": 32150,
+          "stock": 6,
+          "disponible": true
+        }
+      ],
+      "etiquetas": [
+        "hilo",
+        "poliéster",
+        "caja",
+        "mayorista",
+        "caimán"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo Caimán poliéster 4000 m caja x10 conos | Maquinarias Miguel",
+        "descripcion": "Caja de 10 conos de hilo Caimán de poliéster de fibra cortada, 4000 m cada uno, título 40/2. Blanco o negro."
+      }
+    },
+    {
+      "id": "hilo-encerado-vahe",
+      "sku": "VAHE-ENC",
+      "slug": "hilo-encerado-vahe-en-cono-1-mm",
+      "nombre": "Hilo encerado VAHE en cono 1 mm",
+      "marca": "VAHE",
+      "modelo": "Encerado",
+      "categoria": "hilos",
+      "descripcion_corta": "Hilo encerado de 1 mm en cono, no elástico. Para calzado, cuero, costura a mano y bobinado de motores. Crudo o negro.",
+      "descripcion": "Hilo encerado VAHE en cono, de 1 mm de espesor, pensado para trabajos que piden resistencia: calzado, cuero y costura a mano.\n\nEl encerado lo protege y facilita que pase por la aguja, por eso también se usa para bobinado de motores y usos industriales. No es elástico, así que las costuras quedan firmes.",
+      "caracteristicas": [
+        "Acabado encerado",
+        "1 mm de espesor",
+        "No elástico",
+        "Presentación en cono",
+        "Crudo o negro"
+      ],
+      "especificaciones": {
+        "Espesor": "1 mm",
+        "Acabado": "Encerado",
+        "Presentación": "Cono",
+        "Elástico": "No",
+        "Usos": "Calzado, cuero, costura a mano, bobinado de motores"
+      },
+      "precio": 18000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 9,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_799777-MLA106117489590_022026-O.jpg",
+          "alt": "Hilo encerado VAHE en cono 1 mm - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_986936-MLA106117426508_022026-O.jpg",
+          "alt": "Hilo encerado VAHE en cono 1 mm - foto 2",
+          "principal": false
+        }
+      ],
+      "variantes": [
+        {
+          "sku": "VAHE-ENC-CRUDO",
+          "nombre": "Crudo",
+          "atributos": {
+            "color": "Crudo"
+          },
+          "precio": 18200,
+          "disponible": true
+        },
+        {
+          "sku": "VAHE-ENC-NEGRO",
+          "nombre": "Negro",
+          "atributos": {
+            "color": "Negro"
+          },
+          "precio": 18000,
+          "disponible": true
+        }
+      ],
+      "etiquetas": [
+        "hilo",
+        "encerado",
+        "cuero",
+        "calzado",
+        "vahe"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo encerado VAHE en cono 1 mm | Maquinarias Miguel",
+        "descripcion": "Hilo encerado de 1 mm en cono, no elástico. Para calzado, cuero, costura a mano y bobinado de motores. Crudo o negro."
+      }
+    },
+    {
+      "id": "hilo-bordar-soft-metallic-dorado",
+      "sku": "SOFTMET-DORADO",
+      "slug": "hilo-para-bordar-soft-metallic-dorado-3000-m",
+      "nombre": "Hilo para bordar Soft Metallic dorado 3000 m",
+      "marca": "Soft Metallic",
+      "modelo": "Soft Metallic",
+      "categoria": "hilos",
+      "descripcion_corta": "Hilo metalizado dorado para bordar, cono de 3000 m. Brillo suave para terminaciones elegantes.",
+      "descripcion": "Hilo para bordar Soft Metallic en dorado metálico. Su textura suave y brillante resalta en cualquier tela y le da un toque sofisticado a tus diseños.\n\nEl cono de 3000 m te permite trabajar proyectos largos sin cortes, y la presentación en cono evita enredos.",
+      "caracteristicas": [
+        "Dorado metalizado",
+        "Cono de 3000 m",
+        "Brillo suave",
+        "Para bordado a máquina"
+      ],
+      "especificaciones": {
+        "Color": "Dorado",
+        "Metraje": "3000 m",
+        "Presentación": "Cono",
+        "Línea": "Bordado"
+      },
+      "precio": 50000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 5,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_806206-MLA106659776859_022026-O.jpg",
+          "alt": "Hilo para bordar Soft Metallic dorado 3000 m - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_774087-MLA106659806953_022026-O.jpg",
+          "alt": "Hilo para bordar Soft Metallic dorado 3000 m - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_892959-MLA106656976001_022026-O.jpg",
+          "alt": "Hilo para bordar Soft Metallic dorado 3000 m - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_930480-MLA106658522837_022026-O.jpg",
+          "alt": "Hilo para bordar Soft Metallic dorado 3000 m - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_781695-MLA106658522839_022026-O.jpg",
+          "alt": "Hilo para bordar Soft Metallic dorado 3000 m - foto 5",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "hilo",
+        "bordado",
+        "metalizado",
+        "dorado"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Hilo para bordar Soft Metallic dorado 3000 m | Maquinarias Miguel",
+        "descripcion": "Hilo metalizado dorado para bordar, cono de 3000 m. Brillo suave para terminaciones elegantes."
+      }
+    },
+    {
+      "id": "bolso-janome",
+      "sku": "JANOME-BOLSO",
+      "slug": "bolso-original-janome-para-maquinas-rectas",
+      "nombre": "Bolso original Janome para máquinas rectas",
+      "marca": "Janome",
+      "modelo": "Bolso para rectas",
+      "categoria": "accesorios",
+      "descripcion_corta": "Bolso original Janome para transportar y guardar máquinas de coser rectas. Compatible con muchos modelos Janome.",
+      "descripcion": "Bolso original Janome para transportar y proteger tu máquina de coser recta.",
+      "caracteristicas": [
+        "Original Janome",
+        "Para máquinas rectas familiares"
+      ],
+      "especificaciones": {
+        "Marca": "Janome",
+        "Compatibilidad": "Janome 1522, 2032X, 3016, 311, 3112, 3160PG, 523H, 523S, 712, DC6100, DM7200"
+      },
+      "precio": 149000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 2,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_944330-MLA107640511642_032026-O.jpg",
+          "alt": "Bolso original Janome para máquinas rectas - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_600623-MLA108373626619_032026-O.jpg",
+          "alt": "Bolso original Janome para máquinas rectas - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_863513-MLA108374014025_032026-O.jpg",
+          "alt": "Bolso original Janome para máquinas rectas - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_805412-MLA106774467424_022026-O.jpg",
+          "alt": "Bolso original Janome para máquinas rectas - foto 4",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "bolso",
+        "funda",
+        "janome",
+        "accesorio"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Bolso original Janome para máquinas rectas | Maquinarias Miguel",
+        "descripcion": "Bolso original Janome para transportar y guardar máquinas de coser rectas. Compatible con muchos modelos Janome."
+      }
+    },
+    {
+      "id": "carreteles-janome-x25",
+      "sku": "JANOME-CARR-25",
+      "slug": "carreteles-originales-janome-x25-con-caja-organizadora",
+      "nombre": "Carreteles originales Janome x25 con caja organizadora",
+      "marca": "Janome",
+      "modelo": "Carreteles altos",
+      "categoria": "accesorios",
+      "descripcion_corta": "Kit de 25 carreteles (bobinas) originales Janome con caja organizadora.",
+      "descripcion": "Kit de 25 carreteles originales Janome con caja organizadora para tenerlos ordenados.",
+      "caracteristicas": [
+        "25 carreteles originales",
+        "Caja organizadora incluida"
+      ],
+      "especificaciones": {
+        "Marca": "Janome",
+        "Cantidad": "25 unidades",
+        "Tipo": "Carretel alto"
+      },
+      "precio": 32000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_610233-MLA107444443147_022026-O.jpg",
+          "alt": "Carreteles originales Janome x25 con caja organizadora - foto 1",
+          "principal": true
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "carreteles",
+        "bobinas",
+        "janome",
+        "repuesto"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Carreteles originales Janome x25 con caja organizadora",
+        "descripcion": "Kit de 25 carreteles (bobinas) originales Janome con caja organizadora."
+      }
+    },
+    {
+      "id": "kit-cinta-bies-7",
+      "sku": "BIES-KIT-7",
+      "slug": "kit-para-hacer-cinta-al-bies-7-piezas",
+      "nombre": "Kit para hacer cinta al bies 7 piezas",
+      "marca": "Genérica",
+      "modelo": "CY-BTM-S1",
+      "categoria": "accesorios",
+      "descripcion_corta": "Set de 7 piezas para fabricar cinta al bies de distintos anchos, de forma rápida y prolija.",
+      "descripcion": "Set de 7 piezas para fabricar tu propia cinta al bies en distintos anchos, de forma rápida y precisa.\n\nSirve tanto para principiantes como para quienes cosen hace años y quieren ahorrar tiempo.",
+      "caracteristicas": [
+        "7 piezas",
+        "Distintos anchos de cinta",
+        "Fácil de usar"
+      ],
+      "especificaciones": {
+        "Modelo": "CY-BTM-S1 (Bias Tape Maker Set)",
+        "Piezas": "7"
+      },
+      "precio": 44900,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_616945-MLA106040096808_022026-O.jpg",
+          "alt": "Kit para hacer cinta al bies 7 piezas - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_721983-MLA92708266819_092025-O.jpg",
+          "alt": "Kit para hacer cinta al bies 7 piezas - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_690386-MLA92708276695_092025-O.jpg",
+          "alt": "Kit para hacer cinta al bies 7 piezas - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_990323-MLA82928224211_032025-O.jpg",
+          "alt": "Kit para hacer cinta al bies 7 piezas - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_873476-MLA92300692010_092025-O.jpg",
+          "alt": "Kit para hacer cinta al bies 7 piezas - foto 5",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "bies",
+        "cinta al bies",
+        "kit",
+        "accesorio"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Kit para hacer cinta al bies 7 piezas | Maquinarias Miguel",
+        "descripcion": "Set de 7 piezas para fabricar cinta al bies de distintos anchos, de forma rápida y prolija."
+      }
+    },
+    {
+      "id": "kit-dobladillo-bies",
+      "sku": "DOBL-BIES-KIT",
+      "slug": "kit-de-dobladillo-2-medidas-pie-para-cinta-al-bies",
+      "nombre": "Kit de dobladillo 2 medidas + pie para cinta al bies",
+      "marca": "Singer",
+      "modelo": "Kit dobladillo + bies",
+      "categoria": "accesorios",
+      "descripcion_corta": "Kit de prensatelas: dobladillo en 2 medidas y pie para cinta al bies. Para máquinas familiares Singer, Janome y Brother.",
+      "descripcion": "Kit con prensatelas de dobladillo en 2 medidas y pie para aplicar cinta al bies.\n\nTe permite lograr dobladillos prolijos en distintos tipos de tela y aplicar cinta al bies con una terminación limpia. Compatible con máquinas familiares Singer, Janome y Brother.",
+      "caracteristicas": [
+        "Dobladillo en 2 medidas",
+        "Pie para cinta al bies",
+        "Para máquinas familiares"
+      ],
+      "especificaciones": {
+        "Compatibilidad": "Singer, Janome y Brother (máquinas familiares)"
+      },
+      "precio": 42000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 3,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_868052-MLA106040104132_022026-O.jpg",
+          "alt": "Kit de dobladillo 2 medidas + pie para cinta al bies - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_673009-MLA106658518223_022026-O.jpg",
+          "alt": "Kit de dobladillo 2 medidas + pie para cinta al bies - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_854049-MLA106039955266_022026-O.jpg",
+          "alt": "Kit de dobladillo 2 medidas + pie para cinta al bies - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_821980-MLA106040533126_022026-O.jpg",
+          "alt": "Kit de dobladillo 2 medidas + pie para cinta al bies - foto 4",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "prensatelas",
+        "dobladillo",
+        "bies",
+        "accesorio"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Kit de dobladillo 2 medidas + pie para cinta al bies",
+        "descripcion": "Kit de prensatelas: dobladillo en 2 medidas y pie para cinta al bies. Para máquinas familiares Singer, Janome y Brother."
+      }
+    },
+    {
+      "id": "kit-patchwork-janome",
+      "sku": "JANOME-PATCH",
+      "slug": "kit-patchwork-y-quilting-para-janome",
+      "nombre": "Kit patchwork y quilting para Janome",
+      "marca": "Janome",
+      "modelo": "Kit patchwork",
+      "categoria": "accesorios",
+      "descripcion_corta": "Kit de accesorios para patchwork y quilting, compatible con Janome 2008, 2012, 2032 y 3112.",
+      "descripcion": "Kit de accesorios para patchwork y quilting diseñado para máquinas Janome. Te ayuda a lograr precisión en diseños simples y elaborados.",
+      "caracteristicas": [
+        "Para patchwork y quilting",
+        "Compatible con varios modelos Janome"
+      ],
+      "especificaciones": {
+        "Compatibilidad": "Janome 2008, 2012, 2032, 3112"
+      },
+      "precio": 95600,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_755144-MLA106257164463_012026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_870370-MLA106748666060_022026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_796284-MLA105653689814_012026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 3",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_944412-MLA105653688064_012026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 4",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_715143-MLA105653957242_012026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 5",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_755488-MLA106257646471_012026-O.jpg",
+          "alt": "Kit patchwork y quilting para Janome - foto 6",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "patchwork",
+        "quilting",
+        "prensatelas",
+        "janome"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Kit patchwork y quilting para Janome | Maquinarias Miguel",
+        "descripcion": "Kit de accesorios para patchwork y quilting, compatible con Janome 2008, 2012, 2032 y 3112."
+      }
+    },
+    {
+      "id": "pedal-enigma-platinum",
+      "sku": "ENIGMA-PEDAL",
+      "slug": "pedal-original-para-enigma-platinum",
+      "nombre": "Pedal original para Enigma Platinum",
+      "marca": "Enigma",
+      "modelo": "Platinum",
+      "categoria": "accesorios",
+      "descripcion_corta": "Pedal original de repuesto para máquina de coser Enigma Platinum. Nuevo.",
+      "descripcion": "Pedal original de repuesto para máquina de coser Enigma Platinum. Nuevo.",
+      "caracteristicas": [
+        "Original Enigma",
+        "Nuevo"
+      ],
+      "especificaciones": {
+        "Material": "Plástico",
+        "Medidas": "22 x 10 x 4 cm",
+        "Peso": "360 g"
+      },
+      "precio": 89000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_830885-MLA118223065414_102026-O.jpg",
+          "alt": "Pedal original para Enigma Platinum - foto 1",
+          "principal": true
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "pedal",
+        "repuesto",
+        "enigma"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Pedal original para Enigma Platinum | Maquinarias Miguel",
+        "descripcion": "Pedal original de repuesto para máquina de coser Enigma Platinum. Nuevo."
+      }
+    },
+    {
+      "id": "expansor-elastico-industrial",
+      "sku": "EXP-ELAST-4R",
+      "slug": "expansor-de-elastico-4-rollos-para-maquina-industrial",
+      "nombre": "Expansor de elástico 4 rollos para máquina industrial",
+      "marca": "Genérica",
+      "modelo": "Expansor 4 rollos",
+      "categoria": "accesorios",
+      "descripcion_corta": "Expansor de elástico de 4 rollos para máquinas de coser industriales de mesa cerrada.",
+      "descripcion": "Expansor de elástico de 4 rollos para máquinas de coser industriales de mesa cerrada. Sumale nuevos usos a tu máquina.",
+      "caracteristicas": [
+        "4 rollos",
+        "Para mesa cerrada",
+        "Máquinas industriales"
+      ],
+      "especificaciones": {
+        "Tipo": "Expansor de elástico",
+        "Rollos": "4",
+        "Montaje": "Mesa cerrada",
+        "Color": "Gris"
+      },
+      "precio": 135000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 1,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_981105-MLA106660103731_022026-O.jpg",
+          "alt": "Expansor de elástico 4 rollos para máquina industrial - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_820514-MLA106045879442_022026-O.jpg",
+          "alt": "Expansor de elástico 4 rollos para máquina industrial - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_605613-MLA106661834915_022026-O.jpg",
+          "alt": "Expansor de elástico 4 rollos para máquina industrial - foto 3",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "elástico",
+        "industrial",
+        "accesorio"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Expansor de elástico 4 rollos para máquina industrial",
+        "descripcion": "Expansor de elástico de 4 rollos para máquinas de coser industriales de mesa cerrada."
+      }
+    },
+    {
+      "id": "aceite-fibroil-5l",
+      "sku": "FIBROIL-5L",
+      "slug": "aceite-fibroil-para-maquinas-de-coser-5-l",
+      "nombre": "Aceite Fibroil para máquinas de coser 5 L",
+      "marca": "Fibroil",
+      "modelo": "5 L",
+      "categoria": "lubricantes",
+      "descripcion_corta": "Aceite incoloro para máquinas de coser, bidón de 5 litros. Ideal para talleres y fábricas: no mancha las telas.",
+      "descripcion": "Aceite Fibroil de 5 litros para uso intensivo en talleres textiles y fábricas de confección.\n\nSu fórmula incolora protege las telas y evita manchas, y su buena lubricación alarga la vida útil de las máquinas y reduce el desgaste.",
+      "caracteristicas": [
+        "Incoloro, no mancha",
+        "Bidón de 5 L",
+        "Para rectas industriales y overlock"
+      ],
+      "especificaciones": {
+        "Contenido": "5 litros",
+        "Uso": "Máquinas rectas industriales y overlock"
+      },
+      "precio": 65200,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 10,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_727213-MLA105469377361_012026-O.jpg",
+          "alt": "Aceite Fibroil para máquinas de coser 5 L - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_783919-MLA105464572401_012026-O.jpg",
+          "alt": "Aceite Fibroil para máquinas de coser 5 L - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_972415-MLA105469466957_012026-O.jpg",
+          "alt": "Aceite Fibroil para máquinas de coser 5 L - foto 3",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "aceite",
+        "lubricante",
+        "mantenimiento",
+        "industrial"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Aceite Fibroil para máquinas de coser 5 L | Maquinarias Miguel",
+        "descripcion": "Aceite incoloro para máquinas de coser, bidón de 5 litros. Ideal para talleres y fábricas: no mancha las telas."
+      }
+    },
+    {
+      "id": "aceite-lubrilina-500",
+      "sku": "LUBRILINA-500",
+      "slug": "aceite-lubricante-lubrilina-para-maquinas-de-coser-500-ml",
+      "nombre": "Aceite lubricante Lubrilina para máquinas de coser 500 ml",
+      "marca": "Lubrilina",
+      "modelo": "500 ml",
+      "categoria": "lubricantes",
+      "descripcion_corta": "Aceite lubricante para máquinas de coser, envase de 500 ml.",
+      "descripcion": "Aceite lubricante Lubrilina para máquinas de coser, en envase de 500 ml.",
+      "caracteristicas": [
+        "Envase de 500 ml",
+        "Para máquinas de coser"
+      ],
+      "especificaciones": {
+        "Contenido": "500 ml"
+      },
+      "precio": 12000,
+      "precio_anterior": null,
+      "moneda": "ARS",
+      "stock": 10,
+      "condicion": "nuevo",
+      "garantia": null,
+      "imagenes": [
+        {
+          "url": "https://http2.mlstatic.com/D_608860-MLA105367913617_012026-O.jpg",
+          "alt": "Aceite lubricante Lubrilina para máquinas de coser 500 ml - foto 1",
+          "principal": true
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_923165-MLA105365840415_012026-O.jpg",
+          "alt": "Aceite lubricante Lubrilina para máquinas de coser 500 ml - foto 2",
+          "principal": false
+        },
+        {
+          "url": "https://http2.mlstatic.com/D_700504-MLA104802958462_012026-O.jpg",
+          "alt": "Aceite lubricante Lubrilina para máquinas de coser 500 ml - foto 3",
+          "principal": false
+        }
+      ],
+      "variantes": [],
+      "etiquetas": [
+        "aceite",
+        "lubricante",
+        "mantenimiento"
+      ],
+      "destacado": false,
+      "activo": true,
+      "seo": {
+        "titulo": "Aceite lubricante Lubrilina para máquinas de coser 500 ml",
+        "descripcion": "Aceite lubricante para máquinas de coser, envase de 500 ml."
+      }
+    }
+  ]
+}
