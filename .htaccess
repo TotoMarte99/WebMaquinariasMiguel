@@ -1,0 +1,75 @@
+# ════════════════════════════════════════════════════════════
+#  Maquinarias Miguel — Apache / LiteSpeed (Hostinger)
+# ════════════════════════════════════════════════════════════
+
+Options -Indexes -MultiViews
+DirectoryIndex index.html index.php
+ErrorDocument 404 /404.php
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ── 1. Dominio canónico: sin www ──
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+
+  # ── 2. Bloquear carpetas y archivos internos ──
+  RewriteRule ^(inc|privado|jsonProductos|docs)(/|$) - [F,L]
+  RewriteRule (^|/)\.(?!well-known/) - [F,L]
+  RewriteRule \.(sqlite|sqlite-wal|sqlite-shm|lock|md|bak|log|sh|example\.php)$ - [F,L,NC]
+  RewriteRule ^dev-router\.php$ - [F,L]
+
+  # ── 3. Redirecciones 301 desde las URLs anteriores ──
+  RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/tienda\.(?:html|php)\?(?:\S*&)?producto=([a-z0-9-]+) [NC]
+  RewriteRule ^ /producto/%1? [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/tienda\.(?:html|php)\?(?:\S*&)?categoria=([a-z0-9-]+) [NC]
+  RewriteRule ^ /tienda/%1? [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/tienda\.(?:html|php)[\s?] [NC]
+  RewriteRule ^ /tienda [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/producto\.php\?slug=([a-z0-9-]+) [NC]
+  RewriteRule ^ /producto/%1? [R=301,L]
+
+  # Sin barra final
+  RewriteRule ^(tienda|tienda/[a-z0-9-]+|producto/[a-z0-9-]+)/$ /$1 [R=301,L]
+
+  # ── 4. URLs limpias ──
+  RewriteRule ^tienda$ tienda.php [L,QSA]
+  RewriteRule ^tienda/([a-z0-9-]+)$ tienda.php?categoria=$1 [L,QSA]
+  RewriteRule ^producto/([a-z0-9-]+)$ producto.php?slug=$1 [L,QSA]
+  RewriteRule ^sitemap\.xml$ sitemap.php [L]
+</IfModule>
+
+# ── Cabeceras de seguridad ──
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+# ── Caché del navegador ──
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType text/javascript "access plus 1 day"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
+
+# ── Compresión ──
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/javascript application/json image/svg+xml
+</IfModule>

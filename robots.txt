@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*q=
+Disallow: /*?*orden=
+
+Sitemap: https://maquinariasmiguel.com/sitemap.xml
